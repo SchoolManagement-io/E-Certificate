@@ -1,0 +1,11 @@
+<?php
+
+// Prevent direct access to this file
+if (basename(__FILE__) === basename($_SERVER['SCRIPT_FILENAME'])) {
+    header('HTTP/1.1 403 Forbidden');
+    file_put_contents('debug_log.txt', date('Y-m-d H:i:s') . " - Direct access attempt blocked\n", FILE_APPEND);
+    die('Access denied');
+}
+
+define('CLOUDCONVERT_API_KEY', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMWFkMDdmOTE3ZTJhNWZlZmNkNzg3NjYxNmE2NTZkOTBkMDBjNGFlZmUyNjkyNWMwOWM0MGJhOTllMjRjYzdlN2M2NTNiMWI3M2MwMDdlMjMiLCJpYXQiOjE3NTA5MTg1NDUuMTc0MDMxLCJuYmYiOjE3NTA5MTg1NDUuMTc0MDMyLCJleHAiOjQ5MDY1OTIxNDUuMTY5ODI5LCJzdWIiOiI3MjI5NzM3OCIsInNjb3BlcyI6WyJ1c2VyLnJlYWQiLCJ1c2VyLndyaXRlIiwidGFzay5yZWFkIiwidGFzay53cml0ZSJdfQ.EXcxogFqKRnWSySF0XtCxl3WRmBy6fNOzwPqQIRV2bbynJLKiChZ2xY-amqET7vM9muBR5gVdD6MIYxcZ0jtHSg7S9fjD2Hed0Lp_ChLy6Adw5_qOzW6Mgq0aSOo7v7qzM-0c8uXiAfahsrH-3qCAZEQ_DrmoUwMeGqe5PH6vhubBrt_B2DhgamSaZlWfCN-6wMf48-bNp8fL8e6KEpNhe5QztxIUs2VaVknyXrdqF08iQ8SaKnUBEDt0ShGTt7NDX43aiOPq3e3CJVkY51iWbd6WvjPRpuTGTHrbVsR5JYOmLeX4yfsqz_tfmqLuYw5SYOPENunTOwoH0cwa58psAcmEKMvCZGwUMjCtSnOoMl3__UtoRWJw02el_GqYUD-gtJUldkerbW59bqxNceXR4_zRgQNGkF3Gq9ERo3E4AuXZTjtqPomKFleC0o9VVbUEDgxHCv4DWLfd6_8-PBNGoa6dfcmduJR3tPQRUTFdSpFKv9Y65yF_HoDV4Llhe3Q9rFEXfspotH3Ml-21U8neO6f2kn6nFcGRSYSndFNiY54MXtOvQBYKVvi_1_yMdYlCjgWUiZDPb-kW0x0XtkOBdmnm2QhaKu-2YIUZtGl_IXgq-OR16XhpU55JvL8JCCevQ1c70jO1xtgs_x7gUtNLwRNVCZCjlMO7ErMx1RhaZQ');
+?>

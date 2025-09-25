@@ -9,6 +9,6 @@ if (basename(__FILE__) === basename($_SERVER['SCRIPT_FILENAME'])) {
 
 define('SMTP_HOST', 'smtp.gmail.com');
 define('SMTP_USERNAME', 'pranavshukla866@gmail.com');
-define('SMTP_PASSWORD', 'bjfb wqqu urqy tzjd');
+define('SMTP_PASSWORD', 'your_passsword_here'); // Replace with your actual password
 define('SMTP_PORT', 587);
 ?>

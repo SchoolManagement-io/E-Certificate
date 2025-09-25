@@ -1,9 +1,0 @@
-2025-06-25 22:14:46 - Created qrcodes directory
-2025-06-25 22:14:47 - QR code generated and saved: C:\Users\shukl\OneDrive\Desktop\certificate_managerqrcodes/2025MRBJIZG4EJ.png
-2025-06-25 22:14:47 - Template file not found: templates/685c74875d83d_template.pptx
-2025-06-25 22:16:25 - QR code generated and saved: C:\Users\shukl\OneDrive\Desktop\certificate_managerqrcodes/2025N3WTCR4C9Q.png
-2025-06-25 22:16:25 - Template file not found: templates/685c74875d83d_template.pptx
-2025-06-25 22:17:42 - QR code generated and saved: C:\Users\shukl\OneDrive\Desktop\certificate_managerqrcodes/2025W81RN8C9CA.png
-2025-06-25 22:17:42 - Template file not found: C:\Users\shukl\OneDrive\Desktop\certificate_managertemplates/685c74875d83d_template.pptx
-2025-06-28 08:32:35 - Direct access attempt blocked
-2025-06-28 08:32:56 - Direct access attempt blocked
